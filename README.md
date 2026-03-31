@@ -43,16 +43,15 @@ The system retrieves relevant course and program information from documents and 
      - structured output
 
 ---
+
 ##  Project Structure
-
-|── RAG_Project/
-│── main.py # Streamlit application
-│── app.py # Alternate version (if present)
-│── RAG_Data/ # PDF documents (catalog data)
-│── requirements.txt # Dependencies
-│── README.md # Project documentation
-│── .env # API keys (not pushed to GitHub)
-
+RAG_Project/
+├── main.py
+├── app.py
+├── RAG_Data/
+├── requirements.txt
+├── README.md
+└── .env
 ---
 
 ##  Setup Instructions

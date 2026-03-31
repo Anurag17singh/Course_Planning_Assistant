@@ -58,12 +58,57 @@ RAG_Project/
 ##  Setup Instructions
 
 ### 1️ Clone the Repository
-```bash
+```
 git clone https://github.com/your-username/rag-course-assistant.git
 cd rag-course-assistant
+```
 
+### 2. Create Virtual Environment
+```
 python -m venv venv
 venv\Scripts\activate        # Windows
 # source venv/bin/activate   # Mac/Linux
+```
 
+### Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+### 4. Environment Variable 
+```
 GEMINI_API_KEY=your_api_key_here
+```
+
+### 5. Add Data
+```
+RAG_DATA
+```
+
+### 6. Run the application
+```
+streamlit run app.py
+```
+
+## Usage
+1. Open the app in your browser
+2. Click "Process Documents"
+3. Wait until the vector database is created
+4. Enter your query (e.g., prerequisites, course planning)
+5. View:
+   - Answer
+   - Supporting documnets chunks
+
+## Future Improvements
+- Save/load FAISS index (faster startup)
+- Multi-agent architecture (retriever + planner + verifier)
+- Chat-based UI
+- Support for live web data
+
+## Tech Stack 
+- Python
+- Streamlit
+- LangChain
+- FAISS
+- HuggingFace Embeddings
+- Google Gemini API

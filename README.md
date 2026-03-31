@@ -43,5 +43,25 @@ The system retrieves relevant course and program information from documents and 
      - structured output
 
 ---
+##  Project Structure
 
- 
+RAG_Project/
+│── main.py # Streamlit application
+│── app.py # Alternate version (if present)
+│── RAG_Data/ # PDF documents (catalog data)
+│── requirements.txt # Dependencies
+│── README.md # Project documentation
+│── .env # API keys (not pushed to GitHub)
+
+---
+
+##  Setup Instructions
+
+### 1️ Clone the Repository
+```bash
+git clone https://github.com/your-username/rag-course-assistant.git
+cd rag-course-assistant
+
+python -m venv venv
+venv\Scripts\activate        # Windows
+# source venv/bin/activate   # Mac/Linux

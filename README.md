@@ -65,3 +65,5 @@ cd rag-course-assistant
 python -m venv venv
 venv\Scripts\activate        # Windows
 # source venv/bin/activate   # Mac/Linux
+
+GEMINI_API_KEY=your_api_key_here

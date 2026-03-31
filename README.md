@@ -45,7 +45,7 @@ The system retrieves relevant course and program information from documents and 
 ---
 ##  Project Structure
 
-RAG_Project/
+|── RAG_Project/
 │── main.py # Streamlit application
 │── app.py # Alternate version (if present)
 │── RAG_Data/ # PDF documents (catalog data)

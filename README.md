@@ -42,8 +42,7 @@ The system retrieves relevant course and program information from documents and 
      - safe abstention
      - structured output
 
----
-
+```
 ##  Project Structure
 RAG_Project/
 ├── main.py
@@ -52,7 +51,7 @@ RAG_Project/
 ├── requirements.txt
 ├── README.md
 └── .env
----
+```
 
 ##  Setup Instructions
 

@@ -42,8 +42,8 @@ The system retrieves relevant course and program information from documents and 
      - safe abstention
      - structured output
 
-```
 ##  Project Structure
+```
 RAG_Project/
 ├── main.py
 ├── app.py
@@ -81,6 +81,8 @@ GEMINI_API_KEY=your_api_key_here
 ### 5. Add Data
 ```
 RAG_DATA
+[Data Used in this task] (https://erp.iitkgp.ac.in/ERPWebServices/curricula/CurriculaSubjectsList.jsp?stuType=UG&splCode=CS)
+[Data used in this task] (https://www.iitkgp.ac.in/assets/pdf/stu_ad.pdf)
 ```
 
 ### 6. Run the application

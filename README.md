@@ -2,6 +2,8 @@
 This project implements a **Retrieval-Augmented Generation (RAG)** system that acts as a **Prerequisite & Course Planning Assistant**. It answers student queries using academic catalog documents and ensures responses are **grounded, citation-based, and reliable**.
 
 The system retrieves relevant course and program information from documents and uses a Large Language Model (LLM) to generate structured, context-aware answers.
+[Data Used in this task](https://erp.iitkgp.ac.in/ERPWebServices/curricula/CurriculaSubjectsList.jsp?stuType=UG&splCode=CS)
+[Data used in this task](https://www.iitkgp.ac.in/assets/pdf/stu_ad.pdf)
 
 ---
 ##  Features
@@ -81,8 +83,6 @@ GEMINI_API_KEY=your_api_key_here
 ### 5. Add Data
 ```
 RAG_DATA
-[Data Used in this task](https://erp.iitkgp.ac.in/ERPWebServices/curricula/CurriculaSubjectsList.jsp?stuType=UG&splCode=CS)
-[Data used in this task](https://www.iitkgp.ac.in/assets/pdf/stu_ad.pdf)
 ```
 
 ### 6. Run the application
